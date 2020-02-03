@@ -166,7 +166,7 @@ void sort_data() {
   for (int x = 0; x < (jmldata - 1); x++) { //bubble-short
     for (int y = 0; y < (jmldata - 1); y++) {
 
-      if (mhs[y].nbi > mhs[y + 1].nbi) {
+      if (mhs[y].nama > mhs[y + 1].nama) {
         temp = mhs[y];
 
         mhs[y] = mhs[y + 1];
